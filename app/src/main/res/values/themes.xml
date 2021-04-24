@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="EditTextGreyStyle" parent="Widget.Design.TextInputLayout">
+        <!--        <item name="colorControlNormal">@color/colorHint</item>// unFocus 상태일때 밑줄 색.-->
+        <!--        <item name="colorControlActivated">@color/colorBlack</item>-->
+        <!--        <item name="boxStrokeColor">@color/colorBlack</item>// Focus 상태일때 밑줄 색.-->
+
+        <!-- filled box unfocused시 underline 회색으로 처리 -->
+        <item name="colorControlNormal">@color/colorHint</item>// unFocus 상태일때 밑줄 색.
+
+        <!-- filled box focused시 안보이게 처리 -->
+        <item name="colorControlActivated">@color/colorTransparent</item>
+        <item name="boxStrokeColor">@color/colorTransparent</item>// Focus 상태일때 밑줄 색.
+
+        <item name="android:textCursorDrawable">@color/colorBlack</item>// cursor 색.
+
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="hintTextColor">@color/colorHint</item>// floating hint 색
+    </style>
+</resources>

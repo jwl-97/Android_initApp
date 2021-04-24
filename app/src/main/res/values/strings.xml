@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">initApp</string>
+
+    <string name="btn_confirm">확인</string>
+
+    <string name="menu_01">1</string>
+</resources>

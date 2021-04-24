@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMainBlue">#287ae2</color>
+    <color name="colorSkyBlue">#f2f6fa</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlackTitle">#111111</color>
+    <color name="colorBlackContent">#434343</color>
+    <color name="colorLightGrayContent">#666666</color>
+    <color name="colorGray">#727272</color>
+
+    <color name="colorHint">#cccccc</color>
+    <color name="colorBottomLine">#eeeeee</color>
+    <color name="colorTransparent">#00000000</color>
+</resources>
